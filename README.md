@@ -23,7 +23,7 @@ This is a Dynamic Webapp created in java with MySql database. It uses Servlet an
  Tourism has turned out to be an economic booster contributing to the economic development of many countries over the last few decades. People see holidays as a necessity, and not as a luxury in the present scenario. With a rich heritage and myriad attractions, India is among the most popular tourist destinations in the world. The pre-COVID times had seen an upsurge of tourists visiting India. Situations like lockdown have made people yearn to travel. Foreseeing the boom in the number of travellers who would visit India post COVID, I attempt to help travellers plan their travel with ease and make their experience a memorable one.
 
 ### Technologies 
-  - 100% java
+  - Backend: 100% java
   - MySql
   - Dynamic web project
   - Servlet and jsp
