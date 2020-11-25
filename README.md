@@ -2,7 +2,7 @@
 ![](Demo_Images/demo2.png)
 ![](Demo_Images/demo3.png)
 ![](Demo_Images/demo4.png)
-![](Demo_Images/demo5.png)
+![](Demo_Images/demo6.png)
 
 
 # Tourist Management Webapp
