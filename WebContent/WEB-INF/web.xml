@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ATMA 1.0.0</display-name>
+  
+  
+  
+  <servlet>
+  	<servlet-name>abc</servlet-name>
+  	<servlet-class>com.atma.ui.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>abc</servlet-name>
+  	<url-pattern>/temp/Atma/Login_v19/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>abc2</servlet-name>
+  	<servlet-class>com.atma.ui.LoginCheck</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>abc2</servlet-name>
+  	<url-pattern>/temp/Atma/Login_v19/loginc</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>abc3</servlet-name>
+  	<servlet-class>com.atma.ui.Booking</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>abc3</servlet-name>
+  	<url-pattern>/temp/Atma/book</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>abc4</servlet-name>
+  	<servlet-class>com.atma.ui.LogoutS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>abc4</servlet-name>
+  	<url-pattern>/temp/Atma/logOut</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>abc5</servlet-name>
+  	<servlet-class>com.atma.ui.Cancel</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>abc5</servlet-name>
+  	<url-pattern>/temp/Atma/cancel</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>abc6</servlet-name>
+  	<servlet-class>com.atma.ui.AdminBookConfirm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>abc6</servlet-name>
+  	<url-pattern>/temp/Atma/confirm</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>abc7</servlet-name>
+  	<servlet-class>com.atma.ui.AdminMonthlyYearly</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>abc7</servlet-name>
+  	<url-pattern>/temp/Atma/my</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>abc8</servlet-name>
+  	<servlet-class>com.atma.ui.Filter</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>abc8</servlet-name>
+  	<url-pattern>/temp/Atma/filter</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>abc9</servlet-name>
+  	<servlet-class>com.atma.ui.GetReview</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>abc9</servlet-name>
+  	<url-pattern>/temp/Atma/review</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>abc10</servlet-name>
+  	<servlet-class>com.atma.ui.Search</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>abc10</servlet-name>
+  	<url-pattern>/temp/Atma/choose</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>abc11</servlet-name>
+  	<servlet-class>com.atma.ui.Confirm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>abc11</servlet-name>
+  	<url-pattern>/temp/Atma/cfbook</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+</web-app>
